@@ -15,6 +15,8 @@
 		FC2CBD6729AE3F52009C93A9 /* GreetingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CBD6629AE3F52009C93A9 /* GreetingService.swift */; };
 		FC2CBD6B29AE3FF1009C93A9 /* GreetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CBD6A29AE3FF1009C93A9 /* GreetingViewModel.swift */; };
 		FC2CBD6D29AE4846009C93A9 /* DefaultGreetingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CBD6C29AE4846009C93A9 /* DefaultGreetingService.swift */; };
+		FC2CBD6F29AE5DA8009C93A9 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CBD6E29AE5DA8009C93A9 /* UserService.swift */; };
+		FC2CBD7129AE5DDE009C93A9 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CBD7029AE5DDE009C93A9 /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		FC2CBD6629AE3F52009C93A9 /* GreetingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingService.swift; sourceTree = "<group>"; };
 		FC2CBD6A29AE3FF1009C93A9 /* GreetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewModel.swift; sourceTree = "<group>"; };
 		FC2CBD6C29AE4846009C93A9 /* DefaultGreetingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultGreetingService.swift; sourceTree = "<group>"; };
+		FC2CBD6E29AE5DA8009C93A9 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		FC2CBD7029AE5DDE009C93A9 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				FC2CBD5829AE3576009C93A9 /* Assets.xcassets */,
 				FC2CBD5A29AE3576009C93A9 /* Preview Content */,
 				FC2CBD6C29AE4846009C93A9 /* DefaultGreetingService.swift */,
+				FC2CBD6E29AE5DA8009C93A9 /* UserService.swift */,
+				FC2CBD7029AE5DDE009C93A9 /* UserView.swift */,
 			);
 			path = DependencyInjection;
 			sourceTree = "<group>";
@@ -149,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC2CBD6F29AE5DA8009C93A9 /* UserService.swift in Sources */,
 				FC2CBD6729AE3F52009C93A9 /* GreetingService.swift in Sources */,
 				FC2CBD6B29AE3FF1009C93A9 /* GreetingViewModel.swift in Sources */,
+				FC2CBD7129AE5DDE009C93A9 /* UserView.swift in Sources */,
 				FC2CBD5729AE3574009C93A9 /* ContentView.swift in Sources */,
 				FC2CBD6529AE3F35009C93A9 /* GreetingView.swift in Sources */,
 				FC2CBD6D29AE4846009C93A9 /* DefaultGreetingService.swift in Sources */,

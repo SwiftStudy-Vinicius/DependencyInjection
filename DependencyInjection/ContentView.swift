@@ -8,12 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    // Declaração de @StateObject para criar uma instância de UserService
+    @StateObject var userService = UserService()
+
     var body: some View {
         let greetingService = DefaultGreetingService()
         let greetingViewModel = GreetingViewModel(greetingService: greetingService)
 
-        GreetingView(viewModel: greetingViewModel)
+        TabView {
+            GreetingView(viewModel: greetingViewModel)
+                .tabItem {
+                    Label("Protocol", systemImage: "car")
+                }
+            UserView()
+                .environmentObject(userService)
+                .tabItem {
+                    Label("EnvironmentObject", systemImage: "bus")
+                }
+        }
     }
 }
 
