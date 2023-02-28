@@ -11,6 +11,10 @@
 		FC2CBD5729AE3574009C93A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CBD5629AE3574009C93A9 /* ContentView.swift */; };
 		FC2CBD5929AE3576009C93A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2CBD5829AE3576009C93A9 /* Assets.xcassets */; };
 		FC2CBD5C29AE3576009C93A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2CBD5B29AE3576009C93A9 /* Preview Assets.xcassets */; };
+		FC2CBD6529AE3F35009C93A9 /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CBD6429AE3F35009C93A9 /* GreetingView.swift */; };
+		FC2CBD6729AE3F52009C93A9 /* GreetingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CBD6629AE3F52009C93A9 /* GreetingService.swift */; };
+		FC2CBD6B29AE3FF1009C93A9 /* GreetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CBD6A29AE3FF1009C93A9 /* GreetingViewModel.swift */; };
+		FC2CBD6D29AE4846009C93A9 /* DefaultGreetingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CBD6C29AE4846009C93A9 /* DefaultGreetingService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		FC2CBD5629AE3574009C93A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC2CBD5829AE3576009C93A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC2CBD5B29AE3576009C93A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC2CBD6429AE3F35009C93A9 /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		FC2CBD6629AE3F52009C93A9 /* GreetingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingService.swift; sourceTree = "<group>"; };
+		FC2CBD6A29AE3FF1009C93A9 /* GreetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewModel.swift; sourceTree = "<group>"; };
+		FC2CBD6C29AE4846009C93A9 /* DefaultGreetingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultGreetingService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				FC2CBD5429AE3574009C93A9 /* DependencyInjectionApp.swift */,
 				FC2CBD5629AE3574009C93A9 /* ContentView.swift */,
+				FC2CBD6429AE3F35009C93A9 /* GreetingView.swift */,
+				FC2CBD6629AE3F52009C93A9 /* GreetingService.swift */,
+				FC2CBD6A29AE3FF1009C93A9 /* GreetingViewModel.swift */,
 				FC2CBD5829AE3576009C93A9 /* Assets.xcassets */,
 				FC2CBD5A29AE3576009C93A9 /* Preview Content */,
+				FC2CBD6C29AE4846009C93A9 /* DefaultGreetingService.swift */,
 			);
 			path = DependencyInjection;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC2CBD6729AE3F52009C93A9 /* GreetingService.swift in Sources */,
+				FC2CBD6B29AE3FF1009C93A9 /* GreetingViewModel.swift in Sources */,
 				FC2CBD5729AE3574009C93A9 /* ContentView.swift in Sources */,
+				FC2CBD6529AE3F35009C93A9 /* GreetingView.swift in Sources */,
+				FC2CBD6D29AE4846009C93A9 /* DefaultGreetingService.swift in Sources */,
 				FC2CBD5529AE3574009C93A9 /* DependencyInjectionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
